@@ -1,0 +1,43 @@
+---
+// Component Imports
+import Projects from '../components/Projects.astro';
+import PersonalInfo from '../components/PersonalInfo.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<html>
+  <head>
+    <title>✨ Javier Palacio ✨</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Samar Jaffal web page">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Samar Jaffal">
+    <meta property="og:description" content="Javascript developer, eternal student and a dream person.">
+    <meta property="og:title" content="Samar Jaffal – Developer and creator">
+    <meta property="og:image" content="/images/apple-touch-icon.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@samarj_h">
+    <meta name="twitter:domain" content="samardev.com">
+    <meta name="twitter:image" content="/images/apple-touch-icon.png">
+    <meta name="twitter:site" content="@samarj_h">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+		<style global>
+			@import "../styles/global.css";
+		</style>
+	</head>
+  <body>
+    <div class="min-h-screen w-full container mx-auto px-4 md:px-10 pt-10">
+      <main>
+        <PersonalInfo/>
+        <Projects/>
+      </main>
+      <Footer/>
+    </div> 
+  </body>
+</html>

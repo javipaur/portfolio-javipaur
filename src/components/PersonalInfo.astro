@@ -1,0 +1,25 @@
+---
+// Component Imports
+import SocialMedia from './SocialMedia.astro';
+---
+<div class="block lg:flex gap-x-8 lg:justify-center lg:items-stretch mx-auto">
+  <div class="block lg:flex lg:items-center gap-x-10">
+    <img src="https://media.licdn.com/dms/image/C4D03AQHNKAY3pyo-ng/profile-displayphoto-shrink_800_800/0/1595274895331?e=1688601600&v=beta&t=It-iJjJB24__tGBgCN62axMblEQYOPo4wIz6wbeDiQ0" alt="My avatar" class="rounded-full w-32 h-32 md:w-48 md:h-48 mx-auto lg:mx-0" />
+    <div class="space-y-4 w-full text-center lg:text-left relative">
+      <div>
+        <h1 class="text-black font-bold text-4xl md:text-6xl mt-4 lg:mt-0">Javier Palacio</h1>
+        <h3 class="font-bold text-xl md:text-3xl"><span class="text-yellow-400">Software</span> Engineer</h3>
+      </div>
+        <div class="hidden lg:flex gap-x-4 justify-end absolute right-0 top-14">
+        <SocialMedia/>
+      </div>
+      <hr />
+      <div>
+        <p class="font-light text-base md:text-lg">👋 I'm an experienced developer with more than <strong>7 years</strong> working on <strong>web technologies</strong>.  I enjoy creating cool stuff that can help people to solve a specific problem. Also, I consider myself <strong>an eternal student</strong>, because I believe that the only way to be successful in life is by using your <strong>knowledge as a tool</strong>.</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex lg:hidden gap-x-4 mt-6 lg:mt-0 justify-center lg:justify-between flex-row lg:flex-col">
+      <SocialMedia/>
+  </div>
+</div>
