@@ -1,3 +1,5 @@
+/* eslint-disable semi */
+/* eslint-disable comma-dangle */
 /* eslint-disable quotes */
 export const projects = [
   {
